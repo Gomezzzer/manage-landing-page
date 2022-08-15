@@ -46,7 +46,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
- /* position: absolute;*/
   margin: -1.2rem;
   padding-left: 21.5rem;
   padding-right: 6rem;
@@ -275,13 +274,23 @@ a:hover{
   cursor: grabbing;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hbg{
-    display: block;
-  }
-  .navbar button,
-  .navbar ul{
     display: none;
+  }
+  .btn {
+    padding: 0px 38px;
+    border: none;
+    border-radius: 35px;
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+ 
+  .navbar ul{
+    display: flex;
+    padding: 1rem;
   }
   .mobile-nav .navbar ul{
     display: block;
@@ -298,12 +307,30 @@ a:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   .navbar ul li a{
-    margin: 0;
+    margin-left: 1rem;
   }
   .navbar{
     width: 80%;
     margin: auto;
   }
+  .intro .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+   /* position: absolute;*/
+    margin: -1.2rem;
+    padding-left: 14.5rem;
+    padding-right: 6rem;
+    margin-top: -6.6rem;
+    top: 0;
+    right: 0;
+  }
+
+  a {
+    font-size: .7rem;
+  }
+
   .intro-content{
     flex-direction: column-reverse;
     text-align: center;
