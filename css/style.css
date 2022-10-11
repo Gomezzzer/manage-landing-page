@@ -41,24 +41,12 @@ h1 {
   background-position-y: -150px;
   background-position-x: 700px;
 }
-.intro .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 0;
-  margin: -1.2rem;
-  padding-left: 21.5rem;
-  padding-right: 6rem;
-  margin-top: -6.6rem;
-  top: 0;
-  right: 0;
-}
-
 .intro-img {
   width: 28rem;
 }
 .navbar ul {
   display: flex;
+  padding: 1rem;
 }
 .navbar li a {
   margin-left: 30px;
@@ -92,6 +80,19 @@ h1 {
   color: hsl(227, 12%, 61%);
   line-height: 1.5;
   margin: 30px 0;
+}
+.intro .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+ /* position: absolute;*/
+  margin: -1.2rem;
+  padding-left: 14.5rem;
+  padding-right: 6rem;
+  margin-top: -6.6rem;
+  top: 0;
+  right: 0;
 }
 main {
   background: url(../images/bg-tablet-pattern.svg);
@@ -257,9 +258,10 @@ main {
 .testimonials p {
   color: hsl(227, 12%, 61%);
 }
-.hbg{
-  display: none;
+.hbg {
+  visibility: visible;
   cursor: pointer;
+  margin-left: 1rem;
 }
 button:hover{
   opacity: 0.7;
@@ -274,10 +276,10 @@ a:hover{
   cursor: grabbing;
 }
 
+
+
 @media (max-width: 768px) {
-  .hbg{
-    display: none;
-  }
+
   .btn {
     padding: 0px 38px;
     border: none;
@@ -289,7 +291,7 @@ a:hover{
   }
  
   .navbar ul{
-    display: flex;
+    display: block;
     padding: 1rem;
   }
   .mobile-nav .navbar ul{
@@ -307,26 +309,38 @@ a:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   .navbar ul li a{
+    display: block;
     margin-left: 1rem;
   }
   .navbar{
+    visibility: hidden;
     width: 80%;
     margin: auto;
   }
+  .hbg {
+    display: block;
+    cursor: pointer;
+    margin-left: 1rem;
+    padding-bottom: 6rem;
+  }
   .intro .navbar {
-    display: flex;
+    visibility: hidden;
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
-   /* position: absolute;*/
+   /* position: absolute;*/ 
     margin: -1.2rem;
-    padding-left: 14.5rem;
+    padding-left: 5rem;
     padding-right: 6rem;
     margin-top: -6.6rem;
     top: 0;
     right: 0;
   }
 
+ 
+  
+
+  
   a {
     font-size: .7rem;
   }
@@ -478,3 +492,23 @@ a:hover{
     margin-right: 50px;
   }
 }
+
+@media (min-width: 1024px) {
+
+  .intro-content {
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+  }
+
+  .max-width {
+    margin-left: 2rem;
+    padding-right: 9rem;
+  }
+
+  .hbg {
+    display: none;
+  }
+
+}
+
