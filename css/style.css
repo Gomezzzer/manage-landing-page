@@ -42,7 +42,7 @@ h1 {
   background-position-x: 700px;
 }
 .intro-img {
-  width: 28rem;
+  width: 27rem;
 }
 .navbar ul {
   display: flex;
@@ -93,11 +93,6 @@ h1 {
   margin-top: -6.6rem;
   top: 0;
   right: 0;
-}
-main {
-  background: url(../images/bg-tablet-pattern.svg);
-  background-repeat: no-repeat;
-  background-position-x: -500px;
 }
 
 .main-content {
@@ -277,8 +272,7 @@ a:hover{
 }
 
 
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .btn {
     padding: 0px 38px;
@@ -296,11 +290,12 @@ a:hover{
   }
   .mobile-nav .navbar ul{
     display: block;
+    visibility: visible;
     position: absolute;
-    width: 87%;
+    width: 89%;
     background-color: #fff;
     margin: auto;
-    margin-left: -18.5rem;
+    margin-left: -2.5rem;
     top: 100px;
     text-align: center;
     line-height: 3;
@@ -309,26 +304,25 @@ a:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   .navbar ul li a{
-    display: block;
+    list-style: none;
     margin-left: 1rem;
   }
   .navbar{
-    visibility: hidden;
-    width: 80%;
-    margin: auto;
+    display: block;
+    margin-bottom: 1rem;
   }
   .hbg {
     display: block;
     cursor: pointer;
     margin-left: 1rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
   }
   .intro .navbar {
     visibility: hidden;
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
-   /* position: absolute;*/ 
+   /* position: absolute; */
     margin: -1.2rem;
     padding-left: 5rem;
     padding-right: 6rem;
@@ -336,11 +330,7 @@ a:hover{
     top: 0;
     right: 0;
   }
-
  
-  
-
-  
   a {
     font-size: .7rem;
   }
@@ -349,6 +339,12 @@ a:hover{
     flex-direction: column-reverse;
     text-align: center;
     padding: 12px 0;
+    margin-top: -9rem;
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: 396px;
+    background-position-x: 254px;
+    background-size: 70%;
   }
   .intro-img img{
     width: 80%;
@@ -367,9 +363,11 @@ a:hover{
     font-size: 2.3rem;
   }
   .intro{
-    background-position-y: -250px;
-    background-position-x: 50px;
+    background-position-y: -61px;
+    background-position-x: 53px;
+    background-size: 103%;
   }
+
   .main-content{
     flex-direction: column;
     width: 80%;
@@ -493,6 +491,34 @@ a:hover{
   }
 }
 
+@media (min-width: 768px) {
+  
+   .intro-content {
+     display: flex;
+     margin-left: 1rem;
+   }
+   .intro-heading {
+     padding-right: 1rem;
+    
+   }
+   .intro-heading h1 {
+     font-size: 2rem;
+     margin-top: -17rem;
+   }
+   .intro-img {
+     margin-right: 1rem;
+   }
+   .intro .navbar {
+     margin-left: -6rem;
+   }
+   .hbg {
+     display: none;
+   }
+   .btn {
+     padding: 3px 34px;
+     margin-bottom: 1rem;
+   }
+}
 @media (min-width: 1024px) {
 
   .intro-content {
