@@ -42,6 +42,7 @@ h1 {
   background-position-x: 700px;
 }
 .intro-img {
+  display: flex;
   width: 27rem;
 }
 .navbar ul {
@@ -492,24 +493,38 @@ a:hover{
 }
 
 @media (min-width: 768px) {
-  
+
+
    .intro-content {
      display: flex;
      margin-left: 1rem;
+     background: url(../images/bg-tablet-pattern.svg);
+     background-repeat: no-repeat;
+     background-position-y: -201px;
+     background-position-x: 380px;
+     background-size: 68%;
+     margin-top: -9rem;
    }
+
    .intro-heading {
      padding-right: 1rem;
+     padding-top: 4rem;
     
    }
    .intro-heading h1 {
      font-size: 2rem;
-     margin-top: -17rem;
+     margin-top: -3rem;
+     margin-left: 2rem;
    }
    .intro-img {
+     display: flex;
+     height: 22rem;
      margin-right: 1rem;
+     margin-top: 4rem;
    }
    .intro .navbar {
      margin-left: -6rem;
+     
    }
    .hbg {
      display: none;
@@ -517,7 +532,14 @@ a:hover{
    .btn {
      padding: 3px 34px;
      margin-bottom: 1rem;
+     margin-left: 1.5rem;
    }
+   .intro-heading p {
+    margin: 30px 30px;
+  }
+  .different {
+     margin-left: 3rem;
+  }
 }
 @media (min-width: 1024px) {
 
