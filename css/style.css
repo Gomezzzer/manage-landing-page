@@ -494,18 +494,30 @@ a:hover{
 
 @media (min-width: 768px) {
 
+  .intro {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    background-position-x: 829px;
+  }
 
    .intro-content {
      display: flex;
      margin-left: 1rem;
      background: url(../images/bg-tablet-pattern.svg);
      background-repeat: no-repeat;
-     background-position-y: -201px;
-     background-position-x: 380px;
-     background-size: 68%;
+     background-position-y: -57px;
+     background-position-x: 439px;
+     background-size: 64%;
      margin-top: -9rem;
    }
-
+   .main-content {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: 212px;
+    background-position-x: -291px;
+    background-size: 60%;
+   }
    .intro-heading {
      padding-right: 1rem;
      padding-top: 4rem;
@@ -539,6 +551,7 @@ a:hover{
   }
   .different {
      margin-left: 3rem;
+     margin-top: 4rem;
   }
 }
 @media (min-width: 1024px) {
