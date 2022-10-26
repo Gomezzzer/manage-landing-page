@@ -494,6 +494,14 @@ a:hover{
 
 @media (min-width: 768px) {
 
+  body  {
+    font-size: 10px;
+  }
+  .logo {
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+  }
+
   .intro {
     background: url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
@@ -506,21 +514,25 @@ a:hover{
      margin-left: 1rem;
      background: url(../images/bg-tablet-pattern.svg);
      background-repeat: no-repeat;
-     background-position-y: -57px;
+     background-position-y: -98px;
      background-position-x: 439px;
      background-size: 64%;
      margin-top: -9rem;
    }
    .main-content {
+    display: flex;
     background: url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-position-y: 212px;
     background-position-x: -291px;
     background-size: 60%;
+    margin-bottom: -1rem;
+    padding-bottom: 2.2rem;
    }
    .intro-heading {
      padding-right: 1rem;
-     padding-top: 4rem;
+     padding-left: 2rem;
+     padding-top: 7rem;
     
    }
    .intro-heading h1 {
@@ -530,28 +542,77 @@ a:hover{
    }
    .intro-img {
      display: flex;
-     height: 22rem;
-     margin-right: 1rem;
-     margin-top: 4rem;
+     height: 20rem;
+     margin-right: 3rem;
+     margin-top: 5rem;
    }
    .intro .navbar {
-     margin-left: -6rem;
-     
+     margin-left: -1rem;
+     margin-top: -7.5rem;
    }
    .hbg {
      display: none;
    }
    .btn {
-     padding: 3px 34px;
-     margin-bottom: 1rem;
+     padding: 9px 19px;
+     margin-bottom: 0rem;
      margin-left: 1.5rem;
+     font-size: 10px;
    }
    .intro-heading p {
     margin: 30px 30px;
   }
   .different {
-     margin-left: 3rem;
-     margin-top: 4rem;
+     margin-left: 5rem;
+     margin-top: 0rem;
+  }
+  .benefits span {
+     margin-right: 10px;
+  }
+  .benefits .flex p {
+     margin-left: .5rem;
+  }
+  .benefits .flex h1 {
+     font-size: 12px;
+  }
+  .benefit-1,
+  .benefit-2,
+  .benefit-3 {
+    display: flex;
+    padding-right: 5rem;
+}
+  .testimonials h1,
+  .testimonials h5 {
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+    margin: 7px auto;
+}
+.testimonials {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -227px;
+    background-position-x: -291px;
+    background-size: 60%;
+  }
+  .testimonials .item {
+      padding: 30px;
+      background: hsl(0, 0%, 98%);
+      border-radius: 8px;
+      margin: 30px;
+      width: 500px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+  }
+
+}
+
+@media (min-width: 820px) {
+  .testimonials {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -198px;
+    background-position-x: -291px;
+    background-size: 60%;
   }
 }
 @media (min-width: 1024px) {
