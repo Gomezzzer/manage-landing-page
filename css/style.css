@@ -404,7 +404,7 @@ a:hover{
   .benefit-1 h1,
   .benefit-2 h1,
   .benefit-3 h1{
-    background-color: hsl(13, 49%, 85%);
+    background-color: hsl(13, 100%, 96%);
     width: 120%;
     padding: 5px 0;
     border-top-left-radius: 8px;
@@ -587,7 +587,7 @@ a:hover{
     color: hsl(228, 39%, 23%);
     margin: 7px auto;
 }
-.testimonials {
+  .testimonials {
     background: url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-position-y: -227px;
