@@ -153,7 +153,6 @@ h1 {
   align-items: center;
   padding: 70px 0;
 }
-
 .orange-part h1 {
   color: hsl(0, 0%, 98%);
   font-size: 2.5rem;
@@ -602,6 +601,31 @@ a:hover{
       width: 500px;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       position: relative;
+  }
+  .slider {
+    width: 80rem;
+  }
+  .orange-part {
+    background: url(../images/bg-simplify-section-desktop.svg) hsl(12, 88%, 59%);
+    background-position-x: 13px;
+    background-position-y: -65px;
+    background-repeat: no-repeat;
+    background-size: 130%;
+  }
+  .orange-part .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+  }
+  .orange-part h1 {
+    color: hsl(0, 0%, 98%);
+    font-size: 1.5rem;
+    width: 19%;
+    margin-left: 10rem;
+  }
+  .white-btn {
+    margin-right: 5rem;
   }
 
 }
