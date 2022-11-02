@@ -616,16 +616,66 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 0;
+    padding: 32px 0;
   }
   .orange-part h1 {
     color: hsl(0, 0%, 98%);
     font-size: 1.5rem;
-    width: 19%;
-    margin-left: 10rem;
+    width: 28%;
+    margin-left: 6rem;
   }
   .white-btn {
     margin-right: 5rem;
+    padding: .5rem;
+  }
+  .footer .max-width {
+    display: flex;
+    font-size: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px  45px;  /*45px; 33px 59px;*/
+  }
+  .footer-logo {
+    width: 6.5rem;
+    filter: brightness(0) invert(1);
+    margin-bottom: 50px;
+    margin-left: 1rem;
+  }
+  .icons a img {
+    width: 8%; 
+  }
+  .icons  {
+    padding-left: 25px;
+  }
+  .ul-list {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
+  .list-3 {
+    margin-right: 3.5rem;
+  }
+  .list-4 {
+    padding: 1rem;
+  }
+  .list-4 input {
+    padding: 7px;
+    background: #fff;
+    border-radius: 35px;
+    border: none;
+    font-size: 10px; 
+    margin-left: -17rem;
+  }
+  .list-4 button {
+    color: #fff;
+    background: hsl(12, 88%, 59%);
+    padding: 10px 17px;
+    border: none;
+    border-radius: 35px;
+    font-size: 15px;
+   /* margin-left: 10rem;*/
+  }
+  .list-4 form {
+    margin-right: -42px;
   }
 
 }
