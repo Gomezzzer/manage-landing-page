@@ -508,7 +508,7 @@ a:hover{
     background-position-x: 829px;
   }
 
-   .intro-content {
+  .intro-content {
      display: flex;
      margin-left: 1rem;
      background: url(../images/bg-tablet-pattern.svg);
@@ -691,17 +691,42 @@ a:hover{
 }
 @media (min-width: 1024px) {
 
+  .max-width {
+    margin-left: 2rem;
+    padding-right: 0rem;
+  }
   .intro-content {
     display: flex;
     align-items: center;
     padding: 70px 0;
   }
-
-  .max-width {
-    margin-left: 2rem;
-    padding-right: 9rem;
+  .intro {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    background-position-x: 1028px;
   }
-
+  .intro-content {
+    display: flex;
+    margin-left: 1rem;
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -127px;
+    background-position-x: 545px;
+    background-size: 57%;
+    margin-top: -9rem;
+  }
+  .intro-img {
+    display: flex;
+    height: 21rem;
+    margin-right: 6rem;
+    margin-top: 5rem;
+  }
+  .intro .navbar {
+    margin-left: 4rem;
+    margin-top: -7.5rem;
+  }
+ 
   .hbg {
     display: none;
   }
