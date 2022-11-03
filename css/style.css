@@ -519,20 +519,19 @@ a:hover{
      margin-top: -9rem;
    }
    .main-content {
-    display: flex;
-    background: url(../images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
-    background-position-y: 212px;
-    background-position-x: -291px;
-    background-size: 60%;
-    margin-bottom: -1rem;
-    padding-bottom: 2.2rem;
+     display: flex;
+     background: url(../images/bg-tablet-pattern.svg);
+     background-repeat: no-repeat;
+      background-position-y: 212px;
+     background-position-x: -291px;
+     background-size: 60%;
+     margin-bottom: -1rem;
+     padding-bottom: 2.2rem;
    }
    .intro-heading {
      padding-right: 1rem;
      padding-left: 2rem;
-     padding-top: 7rem;
-    
+     padding-top: 7rem; 
    }
    .intro-heading h1 {
      font-size: 2rem;
@@ -546,62 +545,63 @@ a:hover{
      margin-top: 5rem;
    }
    .intro .navbar {
-     margin-left: -1rem;
+     margin-left: -2rem;
      margin-top: -7.5rem;
-   }
+     margin-right: -2.5rem;
+    }
    .hbg {
      display: none;
-   }
+    }
    .btn {
      padding: 9px 19px;
      margin-bottom: 0rem;
      margin-left: 1.5rem;
      font-size: 10px;
    }
-   .intro-heading p {
-    margin: 30px 30px;
+    .intro-heading p {
+      margin: 30px 30px;
+   }
+    .different {
+      margin-left: 5rem;
+      margin-top: 0rem;
+    }
+    .benefits span {
+      margin-right: 10px;
+    }
+    .benefits .flex p {
+      margin-left: .5rem;
+    }
+    .benefits .flex h1 {
+      font-size: 12px;
+    }
+    .benefit-1,
+    .benefit-2,
+    .benefit-3 {
+      display: flex;
+      padding-right: 5rem;
+    }
+    .testimonials h1,
+    .testimonials h5 {
+      font-weight: 700;
+      color: hsl(228, 39%, 23%);
+      margin: 7px auto;
   }
-  .different {
-     margin-left: 5rem;
-     margin-top: 0rem;
-  }
-  .benefits span {
-     margin-right: 10px;
-  }
-  .benefits .flex p {
-     margin-left: .5rem;
-  }
-  .benefits .flex h1 {
-     font-size: 12px;
-  }
-  .benefit-1,
-  .benefit-2,
-  .benefit-3 {
-    display: flex;
-    padding-right: 5rem;
-}
-  .testimonials h1,
-  .testimonials h5 {
-    font-weight: 700;
-    color: hsl(228, 39%, 23%);
-    margin: 7px auto;
-}
-  .testimonials {
-    background: url(../images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
-    background-position-y: -227px;
-    background-position-x: -291px;
-    background-size: 60%;
+    .testimonials {
+      background: url(../images/bg-tablet-pattern.svg);
+      background-repeat: no-repeat;
+      background-position-y: -227px;
+      background-position-x: -291px;
+      background-size: 60%;
   }
   .testimonials .item {
-      padding: 30px;
-      background: hsl(0, 0%, 98%);
-      border-radius: 8px;
-      margin: 30px;
-      width: 500px;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-      position: relative;
-  }
+    padding: 30px;
+    background: hsl(0, 0%, 98%);
+    border-radius: 8px;
+    margin: 30px;
+    width: 500px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
   .slider {
     width: 80rem;
   }
@@ -622,7 +622,7 @@ a:hover{
     color: hsl(0, 0%, 98%);
     font-size: 1.5rem;
     width: 28%;
-    margin-left: 6rem;
+    margin-left: 3.5rem;
   }
   .white-btn {
     margin-right: 5rem;
@@ -711,24 +711,83 @@ a:hover{
     margin-left: 1rem;
     background: url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-position-y: -127px;
-    background-position-x: 545px;
-    background-size: 57%;
+    background-position-y: -121px;
+    background-position-x: 536px;
+    background-size: 56%;
     margin-top: -9rem;
   }
   .intro-img {
     display: flex;
     height: 21rem;
-    margin-right: 6rem;
+    margin-right: 7rem;
     margin-top: 5rem;
   }
   .intro .navbar {
-    margin-left: 4rem;
+    margin-left: 3rem;
     margin-top: -7.5rem;
+    margin-right: 1.7rem;
   }
- 
   .hbg {
     display: none;
+  }
+  .intro-heading {
+    padding-right: 6rem;
+    padding-left: 3rem;
+    padding-top: 5rem; 
+  }
+  .intro-heading h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-top: -3rem;
+    margin-left: .5rem;
+  }
+  .intro-heading p {
+    margin: -29px -35px;
+    padding: 3rem;
+  }
+  .btn {
+    padding: 6px 13px;
+    margin-bottom: 0rem;
+    margin-left: .5rem;
+    font-size: 7px;
+  }
+  .different {
+    margin-left: 5rem;
+    margin-top: -3rem;
+    padding-left: 1.5rem;
+  }
+  .different h1 {
+    padding-right: 3rem;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .benefit-1,
+  .benefit-2,
+  .benefit-3 {
+    display: flex;
+    padding-left: 4.7rem;
+    padding-right: 1rem;
+  }
+  .benefits .flex p {
+    padding-right: 6.5rem;
+    padding-left: 0rem;
+  }
+  .main-content {
+    display: flex;
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+     background-position-y: 145px;
+    background-position-x: -260px;
+    background-size: 47%;
+    margin-bottom: -1rem;
+    padding-bottom: 3.2rem;
+  }
+  .testimonials {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -249px;
+    background-position-x: -291px;
+    background-size: 47%;
   }
 
 }
