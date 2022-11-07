@@ -792,3 +792,86 @@ a:hover{
 
 }
 
+@media (min-width: 1280px) {
+
+  .max-width {
+    max-width: 1280px;
+    margin-left: 2rem;
+  }
+  .logo {
+    margin-left: 5.5rem;
+  }
+  .intro {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    background-position-x: 1287px;
+  }
+  .intro-content {
+    display: flex;
+    margin-left: 1rem;
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -227px;
+    background-position-x: 683px;
+    background-size: 55%;
+    margin-top: -9rem;
+  }
+  .intro-heading {
+    padding-right: 8rem;
+    padding-left: 4rem;
+    padding-top: 5rem; 
+  }
+  .intro-img {
+    display: flex;
+    height: 24rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+  }
+  .intro .navbar {
+    margin-left: 11rem;
+    margin-top: -7.5rem;
+    margin-right: 4.7rem;
+  }
+  .main-content {
+    display: flex;
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+     background-position-y: 119px;
+    background-position-x: -304px;
+    background-size: 42%;
+    margin-bottom: -1rem;
+    margin-left: 0rem;
+    padding-bottom: 3.2rem;
+  }
+  .testimonials {
+    background: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position-y: -249px;
+    background-position-x: -291px;
+    background-size: 37%;
+  }
+  .different {
+    margin-left: 6rem;
+    margin-top: -3rem;
+    padding-left: 1.5rem;
+  }
+  .different h1 {
+    padding-right: 3rem;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .benefit-1,
+  .benefit-2,
+  .benefit-3 {
+    display: flex;
+    padding-left: 11.5rem;
+    padding-right: 0rem;
+  }
+  .benefits .flex p {
+    padding-right: 6.5rem;
+    padding-left: 0rem;
+  }
+
+}
+
